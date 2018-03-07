@@ -5,4 +5,4 @@ set(folder ${PROJECT_NAME})
 set_property(GLOBAL PROPERTY FOLDER Shared)
 ##################################
 
-add_subdirectory(Lib)
+add_subdirectory(ProtoFiles/ProtoFiles)

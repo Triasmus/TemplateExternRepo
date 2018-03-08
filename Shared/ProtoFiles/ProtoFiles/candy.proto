@@ -24,6 +24,6 @@ message Candy {
 }
 
 message Order {
-  repeated Candy candy = 1;
+  repeated Candy candy = 1 [packed=true];
   repeated int32 amount = 2 [packed=true];
 }
